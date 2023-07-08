@@ -228,3 +228,22 @@ margin: 30px auto;
     display: flex;
     justify-content: center;
 }
+/* footer part start */
+.footer_part{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 263px;
+
+}
+.footer_title{
+    font-size: 25px;
+    font-weight: 600;
+    color: #181818;margin: 15px 0px;
+}
+.footer_description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    max-width: 380px;
+    margin-bottom: 15px;
+}
