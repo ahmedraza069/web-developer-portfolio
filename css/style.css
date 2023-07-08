@@ -138,4 +138,38 @@ margin: 30px auto;
     font-weight: 600;
     color: #757575;
 }
+
+.flex_part{
+    margin-top: 120px;
+}
+.flex_box{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 261px;
+
+}
+.skill{
+    padding: 20px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 10px;
+}
+.flex_title{
+    font-size: 18px;
+    font-weight: 600;
+    color:#181818;
+}
+.flex_discription{
+    max-width: 200px;
+    flex-direction: column;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.flex_image{
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
 /* Main section part end */
