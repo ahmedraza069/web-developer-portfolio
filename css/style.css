@@ -9,6 +9,7 @@ header{
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    margin-bottom: 131px;
 }
 .button-primary{
     background-color: orangered;
@@ -91,7 +92,50 @@ margin-bottom: 30px;
 
 
 /* Main section part start */
+.section_main{
+    border-radius:  10px;
+    background-color: #FFF8F3;
+    max-width: 1140px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+.section_title{
+    color:#181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+max-width: 827px;
+margin: 0 auto;
+}
+.section_description{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+max-width: 827px;
+margin: 30px auto;
+}
 
+.about_other{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 827px;
 
-
+    margin: 30px auto;
+}
+.about_informaton{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about > h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
 /* Main section part end */
