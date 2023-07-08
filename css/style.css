@@ -6,6 +6,9 @@ header{
     background-color: #FFF8F3;
     padding: 1px;
     font-family: 'Inter', sans-serif;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .button-primary{
     background-color: orangered;
@@ -51,21 +54,27 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 30px 30px 0px 150px;
 }
 .banner .banner-image img{
     width: 400px;
     height: 500px;
 }
+.banner-text {
+    max-width: 500px;
+}
 .banner-greating{
     font-size: 45px;
 font-style: normal;
 font-weight: 600;
+color: #181818;
 }
 .banner-title{
     font-size: 85px;
 font-style: normal;
 font-weight: 700;
 margin-bottom: 20px;
+color: #181818;
 }
 .banner_content{
     font-size: 18px;
@@ -73,7 +82,16 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 margin-bottom: 30px;
+
 }
 .banner button{
     margin-right: 20px;
 }
+/* banner part end */
+
+
+/* Main section part start */
+
+
+
+/* Main section part end */
